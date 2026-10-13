@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="930" viewBox="0 0 1240 930">
+<style>text{font-family:Arial,sans-serif;fill:#172333} .title{font-size:28px;font-weight:bold}.sub{font-size:17px;font-weight:bold}.lbl{font-size:15px}.tiny{font-size:12px} .panel{fill:#f1f5f9;stroke:#40556e;stroke-width:2} .area{fill:#dbeafe;stroke:#64748b;stroke-width:1.5} .item{fill:#fff;stroke:#94a3b8;stroke-width:1.5} .muted{fill:#cbd5e1;stroke:#64748b;stroke-width:1.5}</style>
+<rect width="1240" height="930" fill="#fff"/><text x="42" y="47" class="title">CineScope — Lab 5 Wireframes</text><text x="42" y="74" class="lbl">Mobile-first design · Navigation adapts · Card grid: 1 / 2 / 3 columns</text>
+<text x="78" y="121" class="sub">MOBILE (375px)</text><rect x="75" y="140" width="320" height="731" rx="20" class="panel"/>
+<rect x="90" y="159" width="290" height="60" class="area"/><text x="104" y="195" class="lbl">CINESCOPE</text><rect x="285" y="172" width="83" height="32" rx="5" class="item"/><text x="301" y="194" class="tiny">☰ Menu</text>
+<rect x="90" y="233" width="290" height="139" rx="8" class="area"/><text x="108" y="265" class="sub">Hero title</text><text x="108" y="290" class="lbl">Intro + description</text><rect x="108" y="309" width="145" height="37" rx="6" class="item"/><text x="121" y="333" class="tiny">Explore movies →</text>
+<text x="90" y="411" class="sub">Featured movies</text>
+<rect x="90" y="427" width="290" height="132" rx="7" class="item"/><rect x="102" y="439" width="87" height="107" class="muted"/><text x="204" y="475" class="lbl">Movie 1</text><text x="204" y="501" class="tiny">Genre · Rating</text>
+<rect x="90" y="571" width="290" height="132" rx="7" class="item"/><rect x="102" y="583" width="87" height="107" class="muted"/><text x="204" y="619" class="lbl">Movie 2</text><text x="204" y="645" class="tiny">Genre · Rating</text>
+<rect x="90" y="716" width="290" height="66" rx="7" class="area"/><text x="106" y="754" class="lbl">Genres / sidebar below cards</text><rect x="90" y="797" width="290" height="53" class="muted"/><text x="194" y="828" class="lbl">Footer</text>
+<text x="503" y="121" class="sub">DESKTOP (1440px)</text><rect x="500" y="140" width="685" height="731" rx="10" class="panel"/>
+<rect x="515" y="155" width="655" height="64" class="area"/><text x="532" y="193" class="sub">CINESCOPE</text><text x="806" y="193" class="lbl">Home     Movies     Genres     About</text>
+<rect x="515" y="233" width="655" height="160" rx="9" class="area"/><text x="539" y="286" class="sub">Hero heading + call to action</text><text x="539" y="316" class="lbl">Introduction / banner</text><rect x="949" y="253" width="195" height="115" class="muted"/><text x="1003" y="316" class="lbl">Hero art</text>
+<text x="515" y="428" class="sub">Featured movies (3-column CSS Grid)</text>
+<rect x="515" y="447" width="145" height="174" rx="6" class="item"/><rect x="527" y="458" width="121" height="114" class="muted"/><text x="555" y="595" class="tiny">Movie 1</text>
+<rect x="673" y="447" width="145" height="174" rx="6" class="item"/><rect x="685" y="458" width="121" height="114" class="muted"/><text x="713" y="595" class="tiny">Movie 2</text>
+<rect x="831" y="447" width="145" height="174" rx="6" class="item"/><rect x="843" y="458" width="121" height="114" class="muted"/><text x="871" y="595" class="tiny">Movie 3</text>
+<rect x="515" y="635" width="145" height="158" rx="6" class="item"/><rect x="527" y="647" width="121" height="100" class="muted"/><text x="555" y="769" class="tiny">Movie 4</text>
+<rect x="673" y="635" width="145" height="158" rx="6" class="item"/><rect x="685" y="647" width="121" height="100" class="muted"/><text x="713" y="769" class="tiny">Movie 5</text>
+<rect x="831" y="635" width="145" height="158" rx="6" class="item"/><rect x="843" y="647" width="121" height="100" class="muted"/><text x="871" y="769" class="tiny">Movie 6</text>
+<rect x="992" y="447" width="178" height="346" rx="6" class="area"/><text x="1024" y="484" class="sub">SIDEBAR</text><text x="1011" y="520" class="lbl">Browse genres</text><line x1="1008" x2="1156" y1="544" y2="544" stroke="#94a3b8"/><text x="1011" y="576" class="tiny">Science Fiction</text><text x="1011" y="604" class="tiny">Drama</text><text x="1011" y="632" class="tiny">Mystery</text><text x="1011" y="662" class="tiny">Adventure</text><text x="1011" y="698" class="lbl">Editor's pick</text>
+<rect x="515" y="809" width="655" height="45" class="muted"/><text x="776" y="836" class="lbl">Footer</text>
+<text x="75" y="904" class="tiny">Wireframe = structural plan (not a pixel-perfect screenshot). Tablet uses a 2-column card grid and sidebar below content.</text>
+</svg>
