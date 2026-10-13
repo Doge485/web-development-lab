@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CineScope — a movie discovery layout built with CSS Flexbox and Grid.">
+  <title>CineScope | Movie Discovery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="CineScope home"><span class="brand-mark">▶</span> CINE<span>SCOPE</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="#movies">Movies</a>
+        <a href="#genres">Genres</a>
+        <a href="#about">About</a>
+      </nav>
+      <span class="header-tag">MOVIE DISCOVERY</span>
+    </div>
+  </header>
+
+  <main id="home" class="page-container">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-content">
+        <p class="eyebrow">YOUR NEXT MOVIE NIGHT STARTS HERE</p>
+        <h1 id="hero-heading">Stories worth <em>watching.</em></h1>
+        <p>Discover films, explore genres, and find something great for tonight.</p>
+        <a class="primary-button" href="#movies">Explore movies <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="film-reel">✦</div>
+        <div class="hero-art-label">LIGHTS · CAMERA · ACTION</div>
+      </div>
+    </section>
+
+    <div class="content-layout">
+      <section id="movies" class="movie-section" aria-labelledby="movies-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">CURATED FOR YOU</p>
+            <h2 id="movies-heading">Featured movies</h2>
+          </div>
+          <span class="count">06 FILMS</span>
+        </div>
+
+        <div class="movie-grid">
+          <article class="movie-card">
+            <div class="poster poster-one"><span class="poster-symbol">✧</span><span class="poster-caption">BEYOND THE STARS</span></div>
+            <div class="movie-info"><span class="genre">SCI-FI</span><h3>Beyond the Stars</h3><p>2025 <span>•</span> 2h 14m</p><div class="rating">★ <strong>8.7</strong><span>/ 10</span></div></div>
+          </article>
+          <article class="movie-card">
+            <div class="poster poster-two"><span class="poster-symbol">◈</span><span class="poster-caption">THE LAST SIGNAL</span></div>
+            <div class="movie-info"><span class="genre">THRILLER</span><h3>The Last Signal</h3><p>2024 <span>•</span> 1h 58m</p><div class="rating">★ <strong>8.2</strong><span>/ 10</span></div></div>
+          </article>
+          <article class="movie-card">
+            <div class="poster poster-three"><span class="poster-symbol">❋</span><span class="poster-caption">GOLDEN HOUR</span></div>
+            <div class="movie-info"><span class="genre">DRAMA</span><h3>Golden Hour</h3><p>2025 <span>•</span> 2h 05m</p><div class="rating">★ <strong>8.9</strong><span>/ 10</span></div></div>
+          </article>
+          <article class="movie-card">
+            <div class="poster poster-four"><span class="poster-symbol">⌁</span><span class="poster-caption">DEEP BLUE</span></div>
+            <div class="movie-info"><span class="genre">ADVENTURE</span><h3>Deep Blue</h3><p>2023 <span>•</span> 1h 49m</p><div class="rating">★ <strong>7.9</strong><span>/ 10</span></div></div>
+          </article>
+          <article class="movie-card">
+            <div class="poster poster-five"><span class="poster-symbol">☾</span><span class="poster-caption">MIDNIGHT CITY</span></div>
+            <div class="movie-info"><span class="genre">MYSTERY</span><h3>Midnight City</h3><p>2025 <span>•</span> 2h 10m</p><div class="rating">★ <strong>8.5</strong><span>/ 10</span></div></div>
+          </article>
+          <article class="movie-card">
+            <div class="poster poster-six"><span class="poster-symbol">✺</span><span class="poster-caption">SUMMER DAYS</span></div>
+            <div class="movie-info"><span class="genre">COMEDY</span><h3>Summer Days</h3><p>2024 <span>•</span> 1h 42m</p><div class="rating">★ <strong>8.0</strong><span>/ 10</span></div></div>
+          </article>
+        </div>
+        <p class="demo-note">Demo movie titles and ratings are fictional and used for this layout exercise.</p>
+      </section>
+
+      <aside class="sidebar" id="genres" aria-label="Movie sidebar">
+        <section class="sidebar-box">
+          <p class="eyebrow">FIND YOUR VIBE</p>
+          <h2>Browse genres</h2>
+          <ul class="genre-list">
+            <li><a href="#movies"><span>🚀</span> Science Fiction <span class="chevron">→</span></a></li>
+            <li><a href="#movies"><span>🎭</span> Drama <span class="chevron">→</span></a></li>
+            <li><a href="#movies"><span>🔍</span> Mystery <span class="chevron">→</span></a></li>
+            <li><a href="#movies"><span>🌊</span> Adventure <span class="chevron">→</span></a></li>
+            <li><a href="#movies"><span>😂</span> Comedy <span class="chevron">→</span></a></li>
+          </ul>
+        </section>
+        <section class="sidebar-box pick-box">
+          <span class="pick-badge">EDITOR'S PICK</span>
+          <h2>Movie night?</h2>
+          <p>Explore the collection and find a film that matches your mood.</p>
+          <a href="#movies">Browse collection →</a>
+        </section>
+        <section class="sidebar-box" id="about">
+          <p class="eyebrow">ABOUT THIS PROJECT</p>
+          <h2>Built for Lab 4</h2>
+          <p class="about-text">A semantic HTML page using Flexbox for navigation and CSS Grid for the movie cards and overall layout.</p>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner"><span class="footer-brand">CINESCOPE</span><span>Lab 04 · CSS Flexbox & Grid</span><span>© 2026 · Layout demonstration</span></div>
+  </footer>
+</body>
+</html>
